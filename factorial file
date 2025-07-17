@@ -1,0 +1,9 @@
+# factioriallls
+
+def fact(f):
+    if f==0 or f==1:
+      return 1
+    return f * fact(f-1)
+
+x = int(input("enter ur no.:"))
+print("factoriall is", fact(x))
