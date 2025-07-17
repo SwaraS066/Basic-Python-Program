@@ -1,0 +1,6 @@
+#print nos till users no divisivble by 3 nd 5
+x = int(input("enter ur no.:"))
+
+for i in range(1,x+1):
+  if i%3 ==0 or i%5 ==0:
+    print(i)
